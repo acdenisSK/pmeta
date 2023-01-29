@@ -1,3 +1,5 @@
+[![docs-badge][]][docs]
+
 # pmeta
 
 `pmeta` is a header-only for the preprocessor used by the C++ language.  It
@@ -16,3 +18,6 @@ compiling with standards C++17 and above, otherwise marking the function as
 ## License
 
 This project is under the jurisdiction of the [Boost Software License](LICENSE).
+
+[docs]: https://acdenissk.github.io/pmeta/
+[docs-badge]: https://img.shields.io/badge/docs-online-5023dd.svg?style=flat-square
