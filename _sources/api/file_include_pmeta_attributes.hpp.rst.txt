@@ -1,0 +1,58 @@
+
+.. _file_include_pmeta_attributes.hpp:
+
+File attributes.hpp
+===================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta>` (``include/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Set of macros for C++ and compiler-specific attributes. 
+
+
+Definition (``include/pmeta/attributes.hpp``)
+---------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_pmeta_attributes.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``pmeta/standards.hpp`` (:ref:`file_include_pmeta_standards.hpp`)
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_attributes_8hpp_1aa10e785d3d8301ca3f931c5b5b2d7447`
+
+- :ref:`exhale_define_attributes_8hpp_1a739a7a58b55f9b7bd7ba22042322fd22`
+
+- :ref:`exhale_define_attributes_8hpp_1a403a3c74230f47e14368ee96b2d74e66`
+
+- :ref:`exhale_define_attributes_8hpp_1ad73d7bb226552f9853fad775b22381ca`
+
+- :ref:`exhale_define_attributes_8hpp_1a364ba346ebdbe45e2eb268b1506e3e59`
+
+- :ref:`exhale_define_attributes_8hpp_1ab15dd70df565d9ec7c90001061c14551`
+
+- :ref:`exhale_define_attributes_8hpp_1a47f0f1f543091336158392cbac2309fb`
+
+- :ref:`exhale_define_attributes_8hpp_1a3931462a569fc3015e52a0ed99904902`
+

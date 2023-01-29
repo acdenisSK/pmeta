@@ -1,0 +1,13 @@
+.. _exhale_define_platforms_8hpp_1aa2a58f9f19e95781f42b5720ae8011be:
+
+Define PMETA_COMPILED_ON_APPLE
+==============================
+
+- Defined in :ref:`file_include_pmeta_platforms.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_COMPILED_ON_APPLE

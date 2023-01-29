@@ -1,0 +1,43 @@
+:orphan:
+
+
+Full API
+========
+
+Directories
+***********
+
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   dir_include_pmeta.rst
+
+Files
+*****
+
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_pmeta_attributes.hpp.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_pmeta_compilers.hpp.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_pmeta_platforms.hpp.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_pmeta_standards.hpp.rst

@@ -1,0 +1,13 @@
+.. _exhale_define_attributes_8hpp_1a47f0f1f543091336158392cbac2309fb:
+
+Define PMETA_HAS_CPP_ATTRIBUTE
+==============================
+
+- Defined in :ref:`file_include_pmeta_attributes.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_HAS_CPP_ATTRIBUTE
