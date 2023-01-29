@@ -15,6 +15,31 @@ they are supported. For instance, marking a function as `constexpr` only when
 compiling with standards C++17 and above, otherwise marking the function as
 `inline`.
 
+## Documentation
+
+There is [online documentation built][docs] from the latest commit from the
+`master` branch. If you want a local copy of the documentation, you will need:
+
+- Doxygen
+- Sphinx
+- Furo theme
+- Python3 (for Sphinx and Furo)
+
+You will also have to run CMake with the `PMETA_BUILD_DOCS` option enabled:
+
+```
+$ cmake ... -DPMETA_BUILD_DOCS=ON
+```
+
+You can then build the docs with:
+
+```
+$ cmake --build <builddir> --target sphinx
+```
+
+The generated documentation can be then found in `<builddir>/docs/sphinx`, which
+can be opened in a web browser.
+
 ## License
 
 This project is under the jurisdiction of the [Boost Software License](LICENSE).
