@@ -1,0 +1,26 @@
+
+.. _program_listing_file_src_pmeta_attribute.hpp:
+
+Program Listing for File attribute.hpp
+======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_pmeta_attribute.hpp>` (``src/pmeta/attribute.hpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #if defined(__has_attribute)
+   #    define PMETA_HAS_COMPILER_ATTRIBUTE(x) __has_attribute(x)
+   #else
+   #    define PMETA_HAS_COMPILER_ATTRIBUTE(x) 0
+   #endif
+   
+   #if defined(__has_cpp_attribute)
+   #    define PMETA_HAS_CPP_ATTRIBUTE(x) __has_cpp_attribute(x)
+   #else
+   #    define PMETA_HAS_CPP_ATTRIBUTE(x) 0
+   #endif

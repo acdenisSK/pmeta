@@ -1,0 +1,38 @@
+
+.. _program_listing_file_src_pmeta_compilers.hpp:
+
+Program Listing for File compilers.hpp
+======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_pmeta_compilers.hpp>` (``src/pmeta/compilers.hpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #ifdef _MSC_VER
+   #    define PMETA_COMPILED_WITH_MSVC 1
+   #else
+   #    define PMETA_COMPILED_WITH_MSVC 0
+   #endif
+   
+   #ifdef __GNUC__
+   #    define PMETA_COMPILED_WITH_GNU 1
+   #else
+   #    define PMETA_COMPILED_WITH_GNU 0
+   #endif
+   
+   #ifdef __MINGW32__
+   #    define PMETA_COMPILED_WITH_MINGW 1
+   #else
+   #    define PMETA_COMPILED_WITH_MINGW 0
+   #endif
+   
+   #ifdef __clang__
+   #    define PMETA_COMPILED_WITH_CLANG 1
+   #else
+   #    define PMETA_COMPILED_WITH_CLANG 0
+   #endif

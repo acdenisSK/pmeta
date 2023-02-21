@@ -1,0 +1,13 @@
+.. _exhale_define_constexpr_8hpp_1ad73d7bb226552f9853fad775b22381ca:
+
+Define PMETA_CONSTEXPR_20
+=========================
+
+- Defined in :ref:`file_src_pmeta_constexpr.hpp`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_CONSTEXPR_20

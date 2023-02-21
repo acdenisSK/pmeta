@@ -3,7 +3,7 @@
 Define PMETA_CPP_STD20
 ======================
 
-- Defined in :ref:`file_include_pmeta_standards.hpp`
+- Defined in :ref:`file_src_pmeta_standards.hpp`
 
 
 Define Documentation

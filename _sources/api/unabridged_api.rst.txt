@@ -9,7 +9,7 @@ Defines
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1aa10e785d3d8301ca3f931c5b5b2d7447.rst
+   define_function_8hpp_1aa10e785d3d8301ca3f931c5b5b2d7447.rst
 
 .. toctree::
    :maxdepth: 5
@@ -25,6 +25,11 @@ Defines
    :maxdepth: 5
 
    define_platforms_8hpp_1abb63c0339a227a1e5183d2940dbdd11e.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_platforms_8hpp_1a3a01ef02ffd10bdd68b577a5b1dd4537.rst
 
 .. toctree::
    :maxdepth: 5
@@ -54,17 +59,22 @@ Defines
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1a739a7a58b55f9b7bd7ba22042322fd22.rst
+   define_constexpr_8hpp_1ab5b745ea76eaf6d5837a6c21f75a25d8.rst
 
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1a403a3c74230f47e14368ee96b2d74e66.rst
+   define_constexpr_8hpp_1a739a7a58b55f9b7bd7ba22042322fd22.rst
 
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1ad73d7bb226552f9853fad775b22381ca.rst
+   define_constexpr_8hpp_1a403a3c74230f47e14368ee96b2d74e66.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   define_constexpr_8hpp_1ad73d7bb226552f9853fad775b22381ca.rst
 
 .. toctree::
    :maxdepth: 5
@@ -94,19 +104,14 @@ Defines
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1a364ba346ebdbe45e2eb268b1506e3e59.rst
+   define_attribute_8hpp_1ab15dd70df565d9ec7c90001061c14551.rst
 
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1ab15dd70df565d9ec7c90001061c14551.rst
+   define_attribute_8hpp_1a47f0f1f543091336158392cbac2309fb.rst
 
 .. toctree::
    :maxdepth: 5
 
-   define_attributes_8hpp_1a47f0f1f543091336158392cbac2309fb.rst
-
-.. toctree::
-   :maxdepth: 5
-
-   define_attributes_8hpp_1a3931462a569fc3015e52a0ed99904902.rst
+   define_variable_8hpp_1a3931462a569fc3015e52a0ed99904902.rst

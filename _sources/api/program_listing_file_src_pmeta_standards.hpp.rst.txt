@@ -1,0 +1,44 @@
+
+.. _program_listing_file_src_pmeta_standards.hpp:
+
+Program Listing for File standards.hpp
+======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_pmeta_standards.hpp>` (``src/pmeta/standards.hpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #if __cplusplus >= 201103L
+   #    define PMETA_CPP_STD11 1
+   #else
+   #    define PMETA_CPP_STD11 0
+   #endif
+   
+   #if __cplusplus >= 201402L
+   #    define PMETA_CPP_STD14 1
+   #else
+   #    define PMETA_CPP_STD14 0
+   #endif
+   
+   #if __cplusplus >= 201703L
+   #    define PMETA_CPP_STD17 1
+   #else
+   #    define PMETA_CPP_STD17 0
+   #endif
+   
+   #if __cplusplus >= 202002L
+   #    define PMETA_CPP_STD20 1
+   #else
+   #    define PMETA_CPP_STD20 0
+   #endif
+   
+   #if __cplusplus > 202002L
+   #    define PMETA_CPP_STD23 1
+   #else
+   #    define PMETA_CPP_STD23 0
+   #endif

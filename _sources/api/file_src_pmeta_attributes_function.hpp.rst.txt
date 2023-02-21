@@ -1,0 +1,44 @@
+
+.. _file_src_pmeta_attributes_function.hpp:
+
+File function.hpp
+=================
+
+|exhale_lsh| :ref:`Parent directory <dir_src_pmeta_attributes>` (``src/pmeta/attributes``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Set of attributes for applying on a function. 
+
+
+Definition (``src/pmeta/attributes/function.hpp``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_src_pmeta_attributes_function.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``pmeta/attribute.hpp`` (:ref:`file_src_pmeta_attribute.hpp`)
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_function_8hpp_1aa10e785d3d8301ca3f931c5b5b2d7447`
+

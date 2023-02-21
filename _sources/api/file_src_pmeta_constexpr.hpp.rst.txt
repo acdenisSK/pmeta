@@ -1,0 +1,50 @@
+
+.. _file_src_pmeta_constexpr.hpp:
+
+File constexpr.hpp
+==================
+
+|exhale_lsh| :ref:`Parent directory <dir_src_pmeta>` (``src/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Set of macros for conditionally including support for C++'s ``constexpr`` 
+
+
+Definition (``src/pmeta/constexpr.hpp``)
+----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_src_pmeta_constexpr.hpp.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``pmeta/standards.hpp`` (:ref:`file_src_pmeta_standards.hpp`)
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_constexpr_8hpp_1ab5b745ea76eaf6d5837a6c21f75a25d8`
+
+- :ref:`exhale_define_constexpr_8hpp_1a739a7a58b55f9b7bd7ba22042322fd22`
+
+- :ref:`exhale_define_constexpr_8hpp_1a403a3c74230f47e14368ee96b2d74e66`
+
+- :ref:`exhale_define_constexpr_8hpp_1ad73d7bb226552f9853fad775b22381ca`
+

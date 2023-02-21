@@ -1,0 +1,46 @@
+
+.. _file_src_pmeta_platforms.hpp:
+
+File platforms.hpp
+==================
+
+|exhale_lsh| :ref:`Parent directory <dir_src_pmeta>` (``src/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Set of macros for conditional compilation around specific platforms / operating systems. 
+
+
+Definition (``src/pmeta/platforms.hpp``)
+----------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_src_pmeta_platforms.hpp.rst
+
+
+
+
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_platforms_8hpp_1a2d9fee79c49a5706e8ab67c4532e8c11`
+
+- :ref:`exhale_define_platforms_8hpp_1aa2a58f9f19e95781f42b5720ae8011be`
+
+- :ref:`exhale_define_platforms_8hpp_1abb63c0339a227a1e5183d2940dbdd11e`
+
+- :ref:`exhale_define_platforms_8hpp_1a3a01ef02ffd10bdd68b577a5b1dd4537`
+
+- :ref:`exhale_define_platforms_8hpp_1acbac97e630961e0c8f3e00bea8c92bde`
+

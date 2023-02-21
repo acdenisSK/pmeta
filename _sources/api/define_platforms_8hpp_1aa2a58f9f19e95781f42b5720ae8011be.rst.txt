@@ -3,7 +3,7 @@
 Define PMETA_COMPILED_ON_APPLE
 ==============================
 
-- Defined in :ref:`file_include_pmeta_platforms.hpp`
+- Defined in :ref:`file_src_pmeta_platforms.hpp`
 
 
 Define Documentation
