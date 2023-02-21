@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 project(pmeta
-  VERSION 0.0.1
+  VERSION 0.1.0
   DESCRIPTION "C++ preprocessor metaprogramming library"
   HOMEPAGE_URL "https://github.com/acdenisSK/pmeta"
   LANGUAGES CXX
