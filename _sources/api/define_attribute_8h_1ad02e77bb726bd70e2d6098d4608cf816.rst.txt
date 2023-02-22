@@ -1,0 +1,13 @@
+.. _exhale_define_attribute_8h_1ad02e77bb726bd70e2d6098d4608cf816:
+
+Define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+=========================================
+
+- Defined in :ref:`file_src_pmeta_attribute.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES

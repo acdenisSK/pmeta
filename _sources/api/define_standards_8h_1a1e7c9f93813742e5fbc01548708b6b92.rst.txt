@@ -1,0 +1,13 @@
+.. _exhale_define_standards_8h_1a1e7c9f93813742e5fbc01548708b6b92:
+
+Define PMETA_C_STD17
+====================
+
+- Defined in :ref:`file_src_pmeta_standards.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_C_STD17

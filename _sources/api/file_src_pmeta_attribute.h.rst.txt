@@ -1,0 +1,54 @@
+
+.. _file_src_pmeta_attribute.h:
+
+File attribute.h
+================
+
+|exhale_lsh| :ref:`Parent directory <dir_src_pmeta>` (``src/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Macros for testing existence of a language-specific or compiler-specific attribute. 
+
+
+Definition (``src/pmeta/attribute.h``)
+--------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_src_pmeta_attribute.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``pmeta/standards.h`` (:ref:`file_src_pmeta_standards.h`)
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_src_pmeta_attributes_function.h`
+
+- :ref:`file_src_pmeta_attributes_variable.h`
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_attribute_8h_1a364ba346ebdbe45e2eb268b1506e3e59`
+
+- :ref:`exhale_define_attribute_8h_1ad02e77bb726bd70e2d6098d4608cf816`
+

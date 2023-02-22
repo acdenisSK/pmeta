@@ -1,0 +1,13 @@
+.. _exhale_define_function_8h_1a0bce68abe6c9be324b6dda95d90effca:
+
+Define PMETA_NORETURN
+=====================
+
+- Defined in :ref:`file_src_pmeta_attributes_function.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_NORETURN

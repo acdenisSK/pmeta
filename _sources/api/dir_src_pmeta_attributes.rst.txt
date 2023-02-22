@@ -15,7 +15,7 @@ Directory attributes
 Files
 -----
 
-- :ref:`file_src_pmeta_attributes_function.hpp`
-- :ref:`file_src_pmeta_attributes_variable.hpp`
+- :ref:`file_src_pmeta_attributes_function.h`
+- :ref:`file_src_pmeta_attributes_variable.h`
 
 

@@ -1,0 +1,28 @@
+
+.. _program_listing_file_src_pmeta_attribute.h:
+
+Program Listing for File attribute.h
+====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_pmeta_attribute.h>` (``src/pmeta/attribute.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #include <pmeta/standards.h>
+   
+   #if defined(__has_attribute)
+   #    define PMETA_HAS_ATTRIBUTE(x) __has_attribute(x)
+   #else
+   #    define PMETA_HAS_ATTRIBUTE(x) 0
+   #endif
+   
+   #if defined(__cplusplus) || PMETA_C_STD23
+   #define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES 1
+   #else
+   #define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES 1
+   #endif

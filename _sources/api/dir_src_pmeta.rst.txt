@@ -15,15 +15,15 @@ Subdirectories
 --------------
 
 - :ref:`dir_src_pmeta_attributes`
+- :ref:`dir_src_pmeta_cpp`
 
 
 Files
 -----
 
-- :ref:`file_src_pmeta_attribute.hpp`
-- :ref:`file_src_pmeta_compilers.hpp`
-- :ref:`file_src_pmeta_constexpr.hpp`
-- :ref:`file_src_pmeta_platforms.hpp`
-- :ref:`file_src_pmeta_standards.hpp`
+- :ref:`file_src_pmeta_attribute.h`
+- :ref:`file_src_pmeta_compilers.h`
+- :ref:`file_src_pmeta_platforms.h`
+- :ref:`file_src_pmeta_standards.h`
 
 

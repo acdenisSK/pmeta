@@ -23,6 +23,11 @@ Directories
 
    dir_src_pmeta_attributes.rst
 
+.. toctree::
+   :maxdepth: 5
+
+   dir_src_pmeta_cpp.rst
+
 Files
 *****
 
@@ -30,34 +35,34 @@ Files
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_attribute.hpp.rst
+   file_src_pmeta_attribute.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_compilers.hpp.rst
+   file_src_pmeta_compilers.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_constexpr.hpp.rst
+   file_src_pmeta_cpp_constexpr.hpp.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_attributes_function.hpp.rst
+   file_src_pmeta_attributes_function.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_platforms.hpp.rst
+   file_src_pmeta_platforms.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_standards.hpp.rst
+   file_src_pmeta_standards.h.rst
 
 .. toctree::
    :maxdepth: 5
 
-   file_src_pmeta_attributes_variable.hpp.rst
+   file_src_pmeta_attributes_variable.h.rst

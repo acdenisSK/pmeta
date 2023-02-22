@@ -1,0 +1,36 @@
+
+.. _program_listing_file_src_pmeta_attributes_function.h:
+
+Program Listing for File function.h
+===================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_src_pmeta_attributes_function.h>` (``src/pmeta/attributes/function.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #include <pmeta/attribute.h>
+   
+   #if PMETA_HAS_ATTRIBUTE(cold)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_COLD [[gnu::cold]]
+   #    else
+   #        define PMETA_COLD __attribute__((cold))
+   #    endif
+   #else
+   #    define PMETA_COLD
+   #endif
+   
+   #if PMETA_HAS_ATTRIBUTE(noreturn)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_NORETURN [[noreturn]]
+   #    else
+   #        define PMETA_NORETURN __attribute__((noreturn))
+   #    endif
+   #else
+   #    define PMETA_NORETURN
+   #endif

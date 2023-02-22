@@ -1,0 +1,13 @@
+.. _exhale_define_standards_8h_1a8b2a7b1f13cafb855f5014e7abcbe383:
+
+Define PMETA_CPP_STD11
+======================
+
+- Defined in :ref:`file_src_pmeta_standards.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_CPP_STD11

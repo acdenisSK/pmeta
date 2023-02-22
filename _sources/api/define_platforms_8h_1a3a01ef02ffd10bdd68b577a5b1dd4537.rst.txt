@@ -1,0 +1,13 @@
+.. _exhale_define_platforms_8h_1a3a01ef02ffd10bdd68b577a5b1dd4537:
+
+Define PMETA_COMPILED_ON_UNIX
+=============================
+
+- Defined in :ref:`file_src_pmeta_platforms.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_COMPILED_ON_UNIX

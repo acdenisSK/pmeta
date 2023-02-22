@@ -1,0 +1,13 @@
+.. _exhale_define_attribute_8h_1a364ba346ebdbe45e2eb268b1506e3e59:
+
+Define PMETA_HAS_ATTRIBUTE
+==========================
+
+- Defined in :ref:`file_src_pmeta_attribute.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_HAS_ATTRIBUTE

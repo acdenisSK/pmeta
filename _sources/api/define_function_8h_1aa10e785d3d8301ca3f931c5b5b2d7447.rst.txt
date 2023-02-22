@@ -1,0 +1,13 @@
+.. _exhale_define_function_8h_1aa10e785d3d8301ca3f931c5b5b2d7447:
+
+Define PMETA_COLD
+=================
+
+- Defined in :ref:`file_src_pmeta_attributes_function.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_COLD

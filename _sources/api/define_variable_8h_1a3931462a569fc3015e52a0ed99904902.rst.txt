@@ -1,0 +1,13 @@
+.. _exhale_define_variable_8h_1a3931462a569fc3015e52a0ed99904902:
+
+Define PMETA_UNUSED
+===================
+
+- Defined in :ref:`file_src_pmeta_attributes_variable.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_UNUSED

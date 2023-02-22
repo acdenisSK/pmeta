@@ -1,0 +1,13 @@
+.. _exhale_define_platforms_8h_1acbac97e630961e0c8f3e00bea8c92bde:
+
+Define PMETA_COMPILED_ON_WINDOWS
+================================
+
+- Defined in :ref:`file_src_pmeta_platforms.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_COMPILED_ON_WINDOWS
