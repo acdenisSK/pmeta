@@ -2,13 +2,13 @@ include(ClangFormat)
 
 ##
 set(headers
-  pmeta/attributes/function.hpp
-  pmeta/attributes/variable.hpp
-  pmeta/attribute.hpp
-  pmeta/compilers.hpp
-  pmeta/constexpr.hpp
-  pmeta/platforms.hpp
-  pmeta/standards.hpp
+  pmeta/attributes/function.h
+  pmeta/attributes/variable.h
+  pmeta/cpp/constexpr.hpp
+  pmeta/attribute.h
+  pmeta/compilers.h
+  pmeta/platforms.h
+  pmeta/standards.h
 )
 
 add_library(pmeta INTERFACE)

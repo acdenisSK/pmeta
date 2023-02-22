@@ -1,5 +1,5 @@
 /**
- * @file platforms.hpp
+ * @file platforms.h
  * @brief Set of macros for conditional compilation around specific platforms /
  * operating systems.
  */

@@ -5,7 +5,7 @@
  */
 #pragma once
 
-#include <pmeta/standards.hpp>
+#include <pmeta/standards.h>
 
 #if PMETA_CPP_STD11
 /**

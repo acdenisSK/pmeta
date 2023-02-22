@@ -1,5 +1,5 @@
 /**
- * @file compilers.hpp
+ * @file compilers.h
  * @brief Set of macros for conditional programming around specific compilers.
  */
 #pragma once
@@ -26,7 +26,7 @@
 
 #ifdef __GNUC__
 /**
- * @brief Shows whether the code is compiled with the GNU (g++) compiler.
+ * @brief Shows whether the code is compiled with the GNU (gcc/g++) compiler.
  *
  * @details Use `#if PMETA_COMPILED_WITH_GNU` to compile code for the GNU
  * compiler.
@@ -34,7 +34,7 @@
 #    define PMETA_COMPILED_WITH_GNU 1
 #else
 /**
- * @brief Shows whether the code is compiled with the GNU (g++) compiler.
+ * @brief Shows whether the code is compiled with the GNU (gcc/g++) compiler.
  *
  * @details Use `#if PMETA_COMPILED_WITH_GNU` to compile code for the GNU
  * compiler.
@@ -44,7 +44,7 @@
 
 #ifdef __MINGW32__
 /**
- * @brief Shows whether the code is compiled with the MINGW (g++) compiler.
+ * @brief Shows whether the code is compiled with the MINGW (gcc/g++) compiler.
  *
  * @details Use `#if PMETA_COMPILED_WITH_MINGW` to compile code for the MINGW
  * compiler.
@@ -52,7 +52,7 @@
 #    define PMETA_COMPILED_WITH_MINGW 1
 #else
 /**
- * @brief Shows whether the code is compiled with the MINGW (g++) compiler.
+ * @brief Shows whether the code is compiled with the MINGW (gcc/g++) compiler.
  *
  * @details Use `#if PMETA_COMPILED_WITH_MINGW` to compile code for the MINGW
  * compiler.
@@ -62,7 +62,7 @@
 
 #ifdef __clang__
 /**
- * @brief Shows whether the code is compiled with the LLVM (clang++) compiler.
+ * @brief Shows whether the code is compiled with the LLVM (clang(++)) compiler.
  *
  * @details Use `#if PMETA_COMPILED_WITH_CLANG` to compile code for the LLVM
  * compiler.
@@ -70,7 +70,7 @@
 #    define PMETA_COMPILED_WITH_CLANG 1
 #else
 /**
- * @brief Shows whether the code is compiled with the LLVM (clang++) compiler.
+ * @brief Shows whether the code is compiled with the LLVM (clang(++)) compiler.
  *
  * @details Use `#if PMETA_COMPILED_WITH_CLANG` to compile code for the LLVM
  * compiler.
