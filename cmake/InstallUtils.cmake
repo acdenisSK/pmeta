@@ -15,7 +15,7 @@ include(CMakePackageConfigHelpers)
 # # abc.h gets installed to `${CMAKE_INSTALL_INCLUDEDIR}/abc.h`
 # # ghi.h gets installed to `${CMAKE_INSTALL_INCLUDEDIR}/def/ghi.h`
 # ```
-function(install_headers)
+function(utils_install_headers)
   ## Utility by user "Ad N" on Stack Overflow
   # https://stackoverflow.com/a/56261784
   set(optionsArgs "")
@@ -33,7 +33,7 @@ function(install_headers)
   endforeach()
 endfunction()
 
-function(install_project TARGETS)
+function(utils_install_targets TARGETS)
   install(TARGETS ${TARGETS}
     EXPORT ${CMAKE_PROJECT_NAME}-export
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
@@ -48,7 +48,9 @@ function(install_project TARGETS)
     FILE ${CMAKE_PROJECT_NAME}Targets.cmake
     NAMESPACE ${CMAKE_PROJECT_NAME}::
     DESTINATION ${CMAKE_INSTALL_DATADIR}/cmake/${CMAKE_PROJECT_NAME})
+endfunction()
 
+function(utils_install_project)
   write_basic_package_version_file(${CMAKE_PROJECT_NAME}ConfigVersion.cmake
     VERSION ${CMAKE_PROJECT_VERSION}
     COMPATIBILITY SameMajorVersion)

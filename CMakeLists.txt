@@ -8,15 +8,13 @@ project(pmeta
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-include(GNUInstallDirs)
 include(InstallUtils)
-include(ClangFormat)
 
 option(PMETA_BUILD_DOCS "Build documentation" OFF)
 
 add_subdirectory(src)
 
-install_project(pmeta)
+utils_install_project()
 
 if(PMETA_BUILD_DOCS)
   add_subdirectory(docs)
