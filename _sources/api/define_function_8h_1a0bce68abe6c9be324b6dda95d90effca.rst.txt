@@ -3,7 +3,7 @@
 Define PMETA_NORETURN
 =====================
 
-- Defined in :ref:`file_src_pmeta_attributes_function.h`
+- Defined in :ref:`file_include_pmeta_attributes_function.h`
 
 
 Define Documentation

@@ -3,7 +3,7 @@
 Define PMETA_UNUSED
 ===================
 
-- Defined in :ref:`file_src_pmeta_attributes_variable.h`
+- Defined in :ref:`file_include_pmeta_attributes_variable.h`
 
 
 Define Documentation

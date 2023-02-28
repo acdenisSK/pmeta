@@ -3,7 +3,7 @@
 Define PMETA_COMPILED_ON_WINDOWS
 ================================
 
-- Defined in :ref:`file_src_pmeta_platforms.h`
+- Defined in :ref:`file_include_pmeta_platforms.h`
 
 
 Define Documentation

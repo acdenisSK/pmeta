@@ -1,0 +1,29 @@
+.. _dir_include_pmeta:
+
+
+Directory pmeta
+===============
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include>` (``include``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+*Directory path:* ``include/pmeta``
+
+Subdirectories
+--------------
+
+- :ref:`dir_include_pmeta_attributes`
+- :ref:`dir_include_pmeta_cpp`
+
+
+Files
+-----
+
+- :ref:`file_include_pmeta_attribute.h`
+- :ref:`file_include_pmeta_compilers.h`
+- :ref:`file_include_pmeta_platforms.h`
+- :ref:`file_include_pmeta_standards.h`
+
+

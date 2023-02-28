@@ -1,0 +1,21 @@
+.. _dir_include_pmeta_attributes:
+
+
+Directory attributes
+====================
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta>` (``include/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+*Directory path:* ``include/pmeta/attributes``
+
+
+Files
+-----
+
+- :ref:`file_include_pmeta_attributes_function.h`
+- :ref:`file_include_pmeta_attributes_variable.h`
+
+

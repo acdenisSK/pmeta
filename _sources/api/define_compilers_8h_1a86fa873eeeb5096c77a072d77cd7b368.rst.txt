@@ -3,7 +3,7 @@
 Define PMETA_COMPILED_WITH_MSVC
 ===============================
 
-- Defined in :ref:`file_src_pmeta_compilers.h`
+- Defined in :ref:`file_include_pmeta_compilers.h`
 
 
 Define Documentation

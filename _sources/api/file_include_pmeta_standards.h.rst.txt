@@ -1,0 +1,64 @@
+
+.. _file_include_pmeta_standards.h:
+
+File standards.h
+================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta>` (``include/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Set of macros for conditional compilation around specific C and C++ standards. 
+
+
+Definition (``include/pmeta/standards.h``)
+------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_pmeta_standards.h.rst
+
+
+
+
+
+
+
+Included By
+-----------
+
+
+- :ref:`file_include_pmeta_attribute.h`
+
+- :ref:`file_include_pmeta_attributes_variable.h`
+
+- :ref:`file_include_pmeta_cpp_constexpr.hpp`
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_standards_8h_1ae3397f28488e3598a10b07e90a1bf2df`
+
+- :ref:`exhale_define_standards_8h_1a1e7c9f93813742e5fbc01548708b6b92`
+
+- :ref:`exhale_define_standards_8h_1aa61e2c3f82b60d650968bed952f4574f`
+
+- :ref:`exhale_define_standards_8h_1a953f29fb4464f8d812d3ffe26abd9488`
+
+- :ref:`exhale_define_standards_8h_1a8b2a7b1f13cafb855f5014e7abcbe383`
+
+- :ref:`exhale_define_standards_8h_1a1ea3401bf922eab7161f4956a673c5d8`
+
+- :ref:`exhale_define_standards_8h_1a5a5edc9ab345612cb11e432d4e322548`
+
+- :ref:`exhale_define_standards_8h_1a66569ab936dd0fd51f961b9be55397dd`
+
+- :ref:`exhale_define_standards_8h_1a853add858c61e8ad70ccd1dfd00a4863`
+

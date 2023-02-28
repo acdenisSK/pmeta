@@ -1,0 +1,20 @@
+.. _dir_include_pmeta_cpp:
+
+
+Directory cpp
+=============
+
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta>` (``include/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+*Directory path:* ``include/pmeta/cpp``
+
+
+Files
+-----
+
+- :ref:`file_include_pmeta_cpp_constexpr.hpp`
+
+

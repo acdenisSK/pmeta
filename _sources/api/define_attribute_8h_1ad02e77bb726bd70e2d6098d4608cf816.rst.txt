@@ -3,7 +3,7 @@
 Define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
 =========================================
 
-- Defined in :ref:`file_src_pmeta_attribute.h`
+- Defined in :ref:`file_include_pmeta_attribute.h`
 
 
 Define Documentation

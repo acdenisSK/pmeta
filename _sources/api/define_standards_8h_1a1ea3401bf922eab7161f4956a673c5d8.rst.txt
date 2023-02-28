@@ -3,7 +3,7 @@
 Define PMETA_CPP_STD14
 ======================
 
-- Defined in :ref:`file_src_pmeta_standards.h`
+- Defined in :ref:`file_include_pmeta_standards.h`
 
 
 Define Documentation

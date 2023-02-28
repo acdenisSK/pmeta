@@ -1,0 +1,44 @@
+
+.. _file_include_pmeta_compilers.h:
+
+File compilers.h
+================
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta>` (``include/pmeta``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Set of macros for conditional programming around specific compilers. 
+
+
+Definition (``include/pmeta/compilers.h``)
+------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_pmeta_compilers.h.rst
+
+
+
+
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_compilers_8h_1ae55e1b91b8cac4f68674b3c54976bf4f`
+
+- :ref:`exhale_define_compilers_8h_1a6693e0b64546ab44feaaec2757f8ac13`
+
+- :ref:`exhale_define_compilers_8h_1a330a994fb763a5fd1f3022c4de991eea`
+
+- :ref:`exhale_define_compilers_8h_1a86fa873eeeb5096c77a072d77cd7b368`
+

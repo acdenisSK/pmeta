@@ -1,0 +1,42 @@
+
+.. _program_listing_file_include_pmeta_platforms.h:
+
+Program Listing for File platforms.h
+====================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_pmeta_platforms.h>` (``include/pmeta/platforms.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #ifdef _WIN32
+   #    define PMETA_COMPILED_ON_WINDOWS 1
+   #else
+   #    define PMETA_COMPILED_ON_WINDOWS 0
+   #endif
+   
+   #if defined(__linux__) && !defined(__ANDROID__)
+   #    define PMETA_COMPILED_ON_LINUX 1
+   #else
+   #    define PMETA_COMPILED_ON_LINUX 0
+   #endif
+   
+   #ifdef __ANDROID__
+   #    define PMETA_COMPILED_ON_ANDROID 1
+   #else
+   #    define PMETA_COMPILED_ON_ANDROID 0
+   #endif
+   
+   #ifdef __APPLE__
+   #    define PMETA_COMPILED_ON_APPLE 1
+   #else
+   #    define PMETA_COMPILED_ON_APPLE 0
+   #endif
+   
+   #define PMETA_COMPILED_ON_UNIX                               \
+       (PMETA_COMPILED_ON_LINUX || PMETA_COMPILED_ON_ANDROID || \
+        PMETA_COMPILED_ON_APPLE)
