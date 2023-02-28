@@ -19,10 +19,11 @@
 
 /**
  * @def PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
- * @brief Predicate whether the language supports `[[...]]` syntax for attributes.
-*/
+ * @brief Predicate whether the language supports `[[...]]` syntax for
+ * attributes.
+ */
 #if defined(__cplusplus) || PMETA_C_STD23
-#define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES 1
+#    define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES 1
 #else
-#define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES 1
+#    define PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES 1
 #endif

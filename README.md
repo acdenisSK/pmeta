@@ -24,18 +24,18 @@ There is [online documentation built][docs] from the latest commit from the
 - Doxygen
 - Sphinx
 - Furo theme
-- Python3 (for Sphinx and Furo)
+- Python3 (for Meson, Sphinx, and Furo)
 
-You will also have to run CMake with the `PMETA_BUILD_DOCS` option enabled:
+You will also have to run Meson with the `docs` option enabled:
 
 ```
-$ cmake ... -DPMETA_BUILD_DOCS=ON
+$ meson setup <builddir> -Ddocs=true
 ```
 
 You can then build the docs with:
 
 ```
-$ cmake --build <builddir> --target sphinx
+$ meson compile -C <builddir> docs/sphinx
 ```
 
 The generated documentation can be then found in `<builddir>/docs/sphinx`, which

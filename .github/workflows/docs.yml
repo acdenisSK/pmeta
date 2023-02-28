@@ -11,15 +11,15 @@ jobs:
     steps:
     - name: Requirements
       run: |
-        sudo apt-get install build-essential cmake doxygen sphinx-doc
+        sudo apt-get install build-essential meson doxygen sphinx-doc
         sudo python3 -m pip install furo breathe exhale sphinx-sitemap
     - name: Checkout repo
       uses: actions/checkout@1.0.0
     - name: Configure
-      run: cmake -S . -Bbuild -DPMETA_BUILD_DOCS=ON
+      run: meson setup build -Ddocs=true
     - name: Build docs
       run: |
-        cmake --build build --target sphinx
+        meson compile -C build docs/sphinx
         cd build/docs/sphinx
         touch .nojekyll
     - name: Deploy

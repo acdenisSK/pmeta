@@ -36,7 +36,7 @@ exhale_args = {
     # TIP: if using the sphinx-bootstrap-theme, you need
     # "treeViewIsBootstrap": True,
     "exhaleExecutesDoxygen": True,
-    "exhaleDoxygenStdin":    "INPUT = ../src"
+    "exhaleDoxygenStdin":    "INPUT = ../src ../include"
 }
 
 # -- Options for HTML output -------------------------------------------------
