@@ -37,7 +37,11 @@ Included By
 -----------
 
 
+- :ref:`file_include_pmeta_attributes_export.h`
+
 - :ref:`file_include_pmeta_attributes_function.h`
+
+- :ref:`file_include_pmeta_attributes_layout.h`
 
 - :ref:`file_include_pmeta_attributes_variable.h`
 
@@ -51,4 +55,6 @@ Defines
 - :ref:`exhale_define_attribute_8h_1a364ba346ebdbe45e2eb268b1506e3e59`
 
 - :ref:`exhale_define_attribute_8h_1ad02e77bb726bd70e2d6098d4608cf816`
+
+- :ref:`exhale_define_attribute_8h_1a7f3f328f6f3318c3a3f33567a38ff36e`
 

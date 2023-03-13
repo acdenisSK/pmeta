@@ -50,7 +50,17 @@ Files
 .. toctree::
    :maxdepth: 5
 
+   file_include_pmeta_attributes_export.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
    file_include_pmeta_attributes_function.h.rst
+
+.. toctree::
+   :maxdepth: 5
+
+   file_include_pmeta_attributes_layout.h.rst
 
 .. toctree::
    :maxdepth: 5

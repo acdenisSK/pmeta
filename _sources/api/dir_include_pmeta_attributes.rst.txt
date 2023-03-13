@@ -15,7 +15,9 @@ Directory attributes
 Files
 -----
 
+- :ref:`file_include_pmeta_attributes_export.h`
 - :ref:`file_include_pmeta_attributes_function.h`
+- :ref:`file_include_pmeta_attributes_layout.h`
 - :ref:`file_include_pmeta_attributes_variable.h`
 
 

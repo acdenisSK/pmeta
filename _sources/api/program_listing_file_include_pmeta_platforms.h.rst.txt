@@ -22,7 +22,6 @@ Program Listing for File platforms.h
    #if defined(__linux__) && !defined(__ANDROID__)
    #    define PMETA_COMPILED_ON_LINUX 1
    #else
-   #    define PMETA_COMPILED_ON_LINUX 0
    #endif
    
    #ifdef __ANDROID__

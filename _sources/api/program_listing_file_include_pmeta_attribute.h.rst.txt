@@ -15,6 +15,12 @@ Program Listing for File attribute.h
    
    #include <pmeta/standards.h>
    
+   #if defined(__has_builtin)
+   #    define PMETA_HAS_BUILTIN(x) __has_builtin(x)
+   #else
+   #    define PMETAPMETA_HAS_BUILTIN(_x) 0
+   #endif
+   
    #if defined(__has_attribute)
    #    define PMETA_HAS_ATTRIBUTE(x) __has_attribute(x)
    #else

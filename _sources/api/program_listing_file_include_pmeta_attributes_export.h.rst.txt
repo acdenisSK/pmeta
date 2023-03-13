@@ -1,0 +1,75 @@
+
+.. _program_listing_file_include_pmeta_attributes_export.h:
+
+Program Listing for File export.h
+=================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_pmeta_attributes_export.h>` (``include/pmeta/attributes/export.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #include <pmeta/attribute.h>
+   #include <pmeta/compilers.h>
+   #include <pmeta/platforms.h>
+   
+   #if PMETA_COMPILED_ON_WINDOWS
+   #    if PMETA_COMPILED_WITH_MSVC
+   #        define PMETA_EXPORT __declspec(dllexport)
+   #    elif PMETA_HAS_ATTRIBUTE(dllexport)
+   #        if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #            define PMETA_EXPORT [[gnu::dllexport]]
+   #        else
+   #            define PMETA_EXPORT __attribute__((dllexport))
+   #        endif
+   #    else
+   #        define PMETA_EXPORT
+   #    endif
+   #elif PMETA_HAS_ATTRIBUTE(visibility)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_EXPORT [[gnu::visibility("default")]]
+   #    else
+   #        define PMETA_EXPORT __attribute__((visibility("default")))
+   #    endif
+   #else
+   #    define PMETA_EXPORT
+   #endif
+   
+   #if PMETA_COMPILED_ON_WINDOWS
+   #    if PMETA_COMPILED_WITH_MSVC
+   #        define PMETA_IMPORT __declspec(dllimport)
+   #    elif PMETA_HAS_ATTRIBUTE(dllimport)
+   #        if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #            define PMETA_IMPORT [[gnu::dllimport]]
+   #        else
+   #            define PMETA_IMPORT __attribute__((dllimport))
+   #        endif
+   #    else
+   #        define PMETA_IMPORT
+   #    endif
+   #elif PMETA_HAS_ATTRIBUTE(visibility)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_IMPORT [[gnu::visibility("default")]]
+   #    else
+   #        define PMETA_IMPORT __attribute__((visibility("default")))
+   #    endif
+   #else
+   #    define PMETA_IMPORT
+   #endif
+   
+   #if PMETA_COMPILED_ON_WINDOWS
+   // Default on Windows.
+   #    define PMETA_HIDE
+   #elif PMETA_HAS_ATTRIBUTE(visibility)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_HIDE [[gnu::visibility("hidden")]]
+   #    else
+   #        define PMETA_HIDE __attribute__((visibility("hidden")))
+   #    endif
+   #else
+   #    define PMETA_HIDE
+   #endif

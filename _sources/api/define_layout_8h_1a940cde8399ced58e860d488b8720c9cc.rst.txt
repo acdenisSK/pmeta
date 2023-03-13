@@ -1,0 +1,13 @@
+.. _exhale_define_layout_8h_1a940cde8399ced58e860d488b8720c9cc:
+
+Define PMETA_PACKED
+===================
+
+- Defined in :ref:`file_include_pmeta_attributes_layout.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_PACKED

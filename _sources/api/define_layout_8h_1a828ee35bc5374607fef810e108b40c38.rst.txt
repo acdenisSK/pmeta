@@ -1,0 +1,13 @@
+.. _exhale_define_layout_8h_1a828ee35bc5374607fef810e108b40c38:
+
+Define PMETA_ALIGNAS
+====================
+
+- Defined in :ref:`file_include_pmeta_attributes_layout.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_ALIGNAS

@@ -1,0 +1,13 @@
+.. _exhale_define_export_8h_1a72a4f4a40fc7b04b4fd09a0ab2f55984:
+
+Define PMETA_HIDE
+=================
+
+- Defined in :ref:`file_include_pmeta_attributes_export.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_HIDE

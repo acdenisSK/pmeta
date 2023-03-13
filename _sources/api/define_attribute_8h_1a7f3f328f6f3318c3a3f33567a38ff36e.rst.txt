@@ -1,0 +1,13 @@
+.. _exhale_define_attribute_8h_1a7f3f328f6f3318c3a3f33567a38ff36e:
+
+Define PMETAPMETA_HAS_BUILTIN
+=============================
+
+- Defined in :ref:`file_include_pmeta_attribute.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETAPMETA_HAS_BUILTIN

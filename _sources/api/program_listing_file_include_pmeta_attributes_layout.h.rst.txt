@@ -1,0 +1,38 @@
+
+.. _program_listing_file_include_pmeta_attributes_layout.h:
+
+Program Listing for File layout.h
+=================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_include_pmeta_attributes_layout.h>` (``include/pmeta/attributes/layout.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   
+   #pragma once
+   
+   #include <pmeta/attribute.h>
+   
+   #ifdef __cplusplus
+   #    define PMETA_ALIGNAS(x) alignas(x)
+   #elif PMETA_HAS_ATTRIBUTE(aligned)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_ALIGNAS(x) [[gnu::aligned(x)]]
+   #    else
+   #        define PMETA_ALIGNAS(x) __attribute__((aligned(x)))
+   #    endif
+   #else
+   #    define PMETA_ALIGNAS(_x)
+   #endif
+   
+   #if PMETA_HAS_ATTRIBUTE(packed)
+   #    if PMETA_SUPPORTS_LANGUAGE_ATTRIBUTES
+   #        define PMETA_PACKED [[gnu::packed]]
+   #    else
+   #        define PMETA_PACKED __attribute__((packed))
+   #    endif
+   #else
+   #    define PMETA_PACKED
+   #endif

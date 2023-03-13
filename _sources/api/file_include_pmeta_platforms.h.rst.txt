@@ -27,6 +27,12 @@ Definition (``include/pmeta/platforms.h``)
 
 
 
+Included By
+-----------
+
+
+- :ref:`file_include_pmeta_attributes_export.h`
+
 
 
 
@@ -37,8 +43,6 @@ Defines
 - :ref:`exhale_define_platforms_8h_1a2d9fee79c49a5706e8ab67c4532e8c11`
 
 - :ref:`exhale_define_platforms_8h_1aa2a58f9f19e95781f42b5720ae8011be`
-
-- :ref:`exhale_define_platforms_8h_1abb63c0339a227a1e5183d2940dbdd11e`
 
 - :ref:`exhale_define_platforms_8h_1a3a01ef02ffd10bdd68b577a5b1dd4537`
 

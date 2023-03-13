@@ -1,0 +1,52 @@
+
+.. _file_include_pmeta_attributes_export.h:
+
+File export.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta_attributes>` (``include/pmeta/attributes``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Utility macros for defining symbol visibility. 
+
+
+Definition (``include/pmeta/attributes/export.h``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_pmeta_attributes_export.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``pmeta/attribute.h`` (:ref:`file_include_pmeta_attribute.h`)
+
+- ``pmeta/compilers.h`` (:ref:`file_include_pmeta_compilers.h`)
+
+- ``pmeta/platforms.h`` (:ref:`file_include_pmeta_platforms.h`)
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_export_8h_1ab75440f5c9710c39e92f44edb503be06`
+
+- :ref:`exhale_define_export_8h_1a72a4f4a40fc7b04b4fd09a0ab2f55984`
+
+- :ref:`exhale_define_export_8h_1a869c84f3c2144f34dc23d49cc7ef8bd1`
+

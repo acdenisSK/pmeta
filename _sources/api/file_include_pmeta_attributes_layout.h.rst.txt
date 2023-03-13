@@ -1,0 +1,46 @@
+
+.. _file_include_pmeta_attributes_layout.h:
+
+File layout.h
+=============
+
+|exhale_lsh| :ref:`Parent directory <dir_include_pmeta_attributes>` (``include/pmeta/attributes``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+
+Attributes relating to the memory layout of a type. 
+
+
+Definition (``include/pmeta/attributes/layout.h``)
+--------------------------------------------------
+
+
+.. toctree::
+   :maxdepth: 1
+
+   program_listing_file_include_pmeta_attributes_layout.h.rst
+
+
+
+
+
+Includes
+--------
+
+
+- ``pmeta/attribute.h`` (:ref:`file_include_pmeta_attribute.h`)
+
+
+
+
+
+
+Defines
+-------
+
+
+- :ref:`exhale_define_layout_8h_1a828ee35bc5374607fef810e108b40c38`
+
+- :ref:`exhale_define_layout_8h_1a940cde8399ced58e860d488b8720c9cc`
+

@@ -1,0 +1,13 @@
+.. _exhale_define_export_8h_1a869c84f3c2144f34dc23d49cc7ef8bd1:
+
+Define PMETA_IMPORT
+===================
+
+- Defined in :ref:`file_include_pmeta_attributes_export.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: PMETA_IMPORT
