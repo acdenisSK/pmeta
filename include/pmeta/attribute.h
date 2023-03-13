@@ -8,6 +8,16 @@
 #include <pmeta/standards.h>
 
 /**
+ * @def PMETA_HAS_BUILTIN
+ * @brief Predicate whether the compiler supports a particular builtin function.
+ */
+#if defined(__has_builtin)
+#    define PMETA_HAS_BUILTIN(x) __has_builtin(x)
+#else
+#    define PMETAPMETA_HAS_BUILTIN(_x) 0
+#endif
+
+/**
  * @def PMETA_HAS_ATTRIBUTE
  * @brief Predicate whether the compiler supports a particular attribute.
  */
