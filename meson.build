@@ -1,4 +1,4 @@
-project('pmeta', 'cpp',
+project('pmeta', 'c',
   version : '0.3.0',
   license : 'BSL-1.0',
 )
