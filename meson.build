@@ -1,5 +1,5 @@
 project('pmeta', 'c',
-  version : '0.3.0',
+  version : '0.3.1',
   license : 'BSL-1.0',
 )
 
