@@ -5,69 +5,51 @@
  */
 #pragma once
 
-#ifdef _WIN32
 /**
+ * @def PMETA_COMPILED_ON_WINDOWS
  * @brief Shows whether the code is compiled on Windows.
  *
  * @details Use `#if PMETA_COMPILED_ON_WINDOWS` to compile code for Windows.
  */
+#ifdef _WIN32
 #    define PMETA_COMPILED_ON_WINDOWS 1
 #else
-/**
- * @brief Shows whether the code is compiled on Windows.
- *
- * @details Use `#if PMETA_COMPILED_ON_WINDOWS` to compile code for Windows.
- */
 #    define PMETA_COMPILED_ON_WINDOWS 0
 #endif
 
-#if defined(__linux__) && !defined(__ANDROID__)
 /**
+ * @def PMETA_COMPILED_ON_LINUX
  * @brief Shows whether the code is compiled on Linux.
  *
  * @details Use `#if PMETA_COMPILED_ON_LINUX` to compile code for Linux.
  */
+#if defined(__linux__) && !defined(__ANDROID__)
 #    define PMETA_COMPILED_ON_LINUX 1
 #else
-/**
- * @brief Shows whether the code is compiled on Linux.
- *
- * @details Use `#if PMETA_COMPILED_ON_LINUX` to compile code for Linux.
- */
-#    define PMETA_COMPILED_ON_LINUX 0
 #endif
 
-#ifdef __ANDROID__
 /**
+ * @def PMETA_COMPILED_ON_ANDROID
  * @brief Shows whether the code is compiled on Android.
  *
  * @details Use `#if PMETA_COMPILED_ON_ANDROID` to compile code for Android.
  */
+#ifdef __ANDROID__
 #    define PMETA_COMPILED_ON_ANDROID 1
 #else
-/**
- * @brief Shows whether the code is compiled on Android.
- *
- * @details Use `#if PMETA_COMPILED_ON_ANDROID` to compile code for Android.
- */
 #    define PMETA_COMPILED_ON_ANDROID 0
 #endif
 
-#ifdef __APPLE__
 /**
+ * @def PMETA_COMPILED_ON_APPLE
  * @brief Shows whether the code is compiled on an Apple platform.
  *
  * @details Use `#if PMETA_COMPILED_ON_APPLE` to compile code for an Apple
  * platform.
  */
+#ifdef __APPLE__
 #    define PMETA_COMPILED_ON_APPLE 1
 #else
-/**
- * @brief Shows whether the code is compiled on an Apple platform.
- *
- * @details Use `#if PMETA_COMPILED_ON_APPLE` to compile code for an Apple
- * platform.
- */
 #    define PMETA_COMPILED_ON_APPLE 0
 #endif
 
